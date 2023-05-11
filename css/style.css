@@ -62,18 +62,29 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
-  font-size:15px;
+  font-size:18px;
   padding: 10px 30px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
 }
 
+.nav-item .hello {
+  text-transform: lowercase;
+}
+
+
 .nav-item :hover {
   color: #fff;
   background-color: #e93f1a;
   border-radius: 5%;
 }
+
+.nav-item.user-name :hover {
+  background-color: blue;
+  color: #fff;
+}
+
 a,
 a:hover,
 a:focus {
@@ -985,6 +996,6 @@ body {
   }
 }
 
-
+ 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
