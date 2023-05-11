@@ -82,7 +82,10 @@
               </ul>
             </div>
           </div>
+<<<<<<< HEAD
           <div class="anon">
+=======
+>>>>>>> 87c9c15ba30f80ac0fea990a91b8a6ed08da295d
           {% if request.user.is_authenticated %}
           <li class="nav-item user-name">
             <div class="dropdown">
@@ -100,6 +103,7 @@
                 {% csrf_token %}
                 <button type="submit">{{ _('Log out') }}</button>
               </form> 
+<<<<<<< HEAD
               {% endif %}              
               </div>
               {% else %}
@@ -113,6 +117,12 @@
               </div>
           </li>
         </div>
+=======
+              {% endif %}
+            </div>
+            </div>
+          </li>
+>>>>>>> 87c9c15ba30f80ac0fea990a91b8a6ed08da295d
        </nav>
       </div>
     </header>
